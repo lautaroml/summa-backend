@@ -1,0 +1,19 @@
+{
+    "name": "lautaro/back-end",
+    "description": "Ejercicio de back-end para SummaSolutions",
+    "authors": [
+        {
+            "name": "Lautaro López",
+            "email": "lautaroml@hotmail.com"
+        }
+    ],
+    "require": {
+        "larapack/dd": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "files": ["helpers.php"]
+    }
+}
